@@ -39,6 +39,8 @@ public class TesteCliente {
 		objetoCarro.setAno(1992);
 		objetoCarro.setValorCarro(22);
 		
+		//Saídas
+		System.out.println("Logradouro: " + objetoEndereco.getLogradouro());
 		
 		
 
