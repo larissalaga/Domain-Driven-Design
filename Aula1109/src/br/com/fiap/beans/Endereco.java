@@ -6,12 +6,13 @@ public class Endereco {
 	
 	private String logradouro;
 	private String cep;
-	private String numero;
+	private int numero;
 	private String complemento;
 	private String municipio;
 	private String estado;
 	
 	//Setters e Getters
+	
 	public String getLogradouro() {
 		return logradouro;
 	}
@@ -24,10 +25,10 @@ public class Endereco {
 	public void setCep(String cep) {
 		this.cep = cep;
 	}
-	public String getNumero() {
+	public int getNumero() {
 		return numero;
 	}
-	public void setNumero(String numero) {
+	public void setNumero(int numero) {
 		this.numero = numero;
 	}
 	public String getComplemento() {
@@ -48,8 +49,6 @@ public class Endereco {
 	public void setEstado(String estado) {
 		this.estado = estado;
 	}
-	
-	
 	
 
 }
