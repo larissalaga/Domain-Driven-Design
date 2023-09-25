@@ -37,9 +37,10 @@ public class TesteCliente {
 				"\nLogradouro: " + objCliente.getEndereco().getLogradouro() + 
 				"\nNúmero: " + objCliente.getEndereco().getNumero() + 
 				"\n\nINFORMAÇÕES COLABORADOR" + 
-				"\nNome do colaborador: " + objColaborador.getNome() + 
-				"\nSalário: " + objColaborador.getSalario());
+				objColaborador.getTudo());
 		
+		System.out.println("\n\nTAXA: \n" + 
+		objColaborador.pagaTaxa());
 		
 
 	}

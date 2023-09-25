@@ -19,6 +19,23 @@ public class Colaborador {
 		this.salario = salario;
 	}
 	
+	//Metodo get que vai exibir resultado de mais de um atributo
 	
+	public String getTudo() {
+		return "\nNome do colaborador: " + nome + "\nSalário: " + salario;
+	}
+	
+	// if else
+	public String pagaTaxa() {
+		String informacao = null;	
+		if (salario >= 22000) {
+			
+			informacao = "Paga Taxa";
+		}else {
+			informacao = "Não Paga Taxa";
+		} 
+		
+		return informacao;
+	}	
 	
 }
