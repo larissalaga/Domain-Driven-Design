@@ -9,5 +9,4 @@ INDEX VERSION 1.132+D:\Domain-Driven-Design\.metadata\.plugins\org.eclipse.jdt.c
 1553921947.index
 521249911.index
 179151685.index
-3308057774.index
 153712427.index
