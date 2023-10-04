@@ -1,5 +1,7 @@
 package br.com.fiap.beans;
 
+import javax.swing.JOptionPane;
+
 public class Colaborador {
 	
 	// visibilidade, tipo, nome 
@@ -40,6 +42,30 @@ public class Colaborador {
 	public void setEndereco(Endereco endereco) {
 		this.endereco = endereco;
 	}
+	
+	//metodo ger com mais de um atributo
+	public String getNomeIdade() {
+				
+		return "Nome: " + nome + "\nIdade: " + idade;
+	}
+	// metodos worker
+	public double calcularSalario() {
+		return valorHora * 	qtdadeHoras;
+	}
+	
+	// if else
+	public String pagarTaxa() {
+		String informacao = null;
+		
+		if (calcularSalario() > 15200.55){
+			informacao = "Paga taxa";
+		} else {
+			informacao = "Não paga taxa";
+		}
+		
+		return informacao;
+	}
+	
 	
 
 	
