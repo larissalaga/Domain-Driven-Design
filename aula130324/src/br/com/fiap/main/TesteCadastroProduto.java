@@ -34,8 +34,6 @@ public static void main(String[] args) throws ClassNotFoundException, SQLExcepti
 	
 	System.out.println(dao.inserir(objProduto));
 	
-	
-		S
 
 	}
 
