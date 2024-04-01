@@ -27,15 +27,15 @@ public class TesteCliente {
 		objetoEndereco.setCep("12347.485");
 		objetoEndereco.setNumero(177);
 		objetoEndereco.setComplemento("Bloco A");
-		objetoEndereco.setBairro("Bairro é isso ai");
+		//objetoEndereco.setBairro("Bairro é isso ai");
 		objetoEndereco.setMunicipio("Asa Branca");
 		objetoEndereco.setEstado("Bruatana");
 		
 		//Carro
-		objetoCarro.setModelo("feio");
-		objetoCarro.setMarca("Preto");
-		objetoCarro.setAno(1992);
-		objetoCarro.setValorCarro(22);
+		//objetoCarro.setModelo("feio");
+		//objetoCarro.setMarca("Preto");
+		//objetoCarro.setAno(1992);
+		//objetoCarro.setValorCarro(22);
 		
 		//Saídas
 		System.out.println("Logradouro: " + objetoEndereco.getLogradouro());

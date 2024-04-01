@@ -38,7 +38,7 @@ public class TesteCliente {
 				"\nLogradouro: " +objCliente.getEndereco().getLogradouro() + 
 				"\nCEP: " + objCliente.getEndereco().getCep() + 
 				"\nNumero: " + objCliente.getEndereco().getNumero() + 
-				"\n\nINFORMAÇÕES DO COLABORADOR" + ]
+				"\n\nINFORMAÇÕES DO COLABORADOR" + 
 				//"Nome: " + objColaborador.getNome() +
 				//"\nCargo: " + objColaborador.getCargo() + 
 				//"\nValor da Hora: " + objColaborador.getValorHora() + 
